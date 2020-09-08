@@ -4,10 +4,10 @@ import java.util.Arrays;
 
 public class Ball {
     //Свойства
-    int size;
-    String color;
-    int weight;
-    int[] coordinates = new int[]{0,0,0};
+    private int size;
+    private String color;
+    private int weight;
+    private int[] coordinates = new int[]{0,0,0};
     //Конструкторы
     public Ball(int size , String color , int weight , int[] coordinates)
     {
